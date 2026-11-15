@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <g stroke="#334155" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+  </g>
+  <!-- Architectural Facade Geometry -->
+  <rect x="250" y="80" width="300" height="340" fill="none" stroke="#64748b" stroke-width="6" rx="4" />
+  <rect x="260" y="90" width="135" height="155" fill="url(#glass)" stroke="#475569" stroke-width="2" />
+  <rect x="405" y="90" width="135" height="155" fill="url(#glass)" stroke="#475569" stroke-width="2" />
+  <rect x="260" y="255" width="135" height="155" fill="url(#glass)" stroke="#475569" stroke-width="2" />
+  <rect x="405" y="255" width="135" height="155" fill="url(#glass)" stroke="#475569" stroke-width="2" />
+  <!-- Accent Fin -->
+  <line x1="400" y1="70" x2="400" y2="430" stroke="url(#gold)" stroke-width="4" />
+  <circle cx="400" cy="250" r="6" fill="#f59e0b" />
+</svg>
